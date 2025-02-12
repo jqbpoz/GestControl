@@ -1,7 +1,7 @@
 [![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/44j9IFcJ)
 [![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=18165444)
-# <imię i nazwisko>
-## <wpisz swój temat>
+# <Jakub Poznański>
+## <Program umożliwiający sterowanie głośnością lub jasnością ekranu za pomocą dłoni, bazując na odległości między palcem wskazującym a kciukiem, w zależności od wybranego trybu. Aplikacja oferuje możliwość pauzy oraz dynamicznej zmiany trybu działania. Użytkownik będzie miał dostęp do GUI, w którym wyświetli się podgląd z kamerki ,informację oraz przyciski. Analiza obrazu (kształtu dłoni) zrealizowana na podstawie biblioteki OpenCV.>
 
 ### Język Python - Grupa 4
 
