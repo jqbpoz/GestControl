@@ -1,0 +1,6 @@
+PyQt6
+opencv-python
+numpy
+mediapipe
+pycaw
+screen-brightness-control
