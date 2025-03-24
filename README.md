@@ -1,21 +1,29 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/44j9IFcJ)
-[![Open in Codespaces](https://classroom.github.com/assets/launch-codespace-2972f46106e565e64193e422d61a12cf1da4916b45550586e14ef0a7c637dd04.svg)](https://classroom.github.com/open-in-codespaces?assignment_repo_id=18165444)
-# <Jakub Poznański>
-## <Program umożliwiający sterowanie głośnością lub jasnością ekranu za pomocą dłoni, bazując na odległości między palcem wskazującym a kciukiem, w zależności od wybranego trybu. Aplikacja oferuje możliwość pauzy oraz dynamicznej zmiany trybu działania. Użytkownik będzie miał dostęp do GUI, w którym wyświetli się podgląd z kamerki ,informację oraz przyciski. Analiza obrazu (kształtu dłoni) zrealizowana na podstawie biblioteki OpenCV.>
+# **Hand Gesture-Based Volume and Screen Brightness Control**
 
-### Język Python - Grupa 4
+## **Description**
+This program allows users to control volume or screen brightness using hand gestures, based on the distance between the index finger and thumb, depending on the selected mode. The application offers a pause function and dynamic mode switching. The user has access to a GUI displaying the camera feed, information, and buttons. Image analysis (hand shape recognition) is performed using the OpenCV library.
 
-**Repozytorium do projektu końcowego.**
+## **Requirements**
+- Python 3.x  
+- PyQt6  
+- opencv-python  
+- numpy  
+- mediapipe  
+- pycaw  
+- screen-brightness-control  
 
-Projekt końcowy jest na ocenę. Ocena dla projektu oddanego terminowo jest brana z wagą **0.25** do oceny końcowej z przedmiotu, gdzie ocena z laboratorium brana jest z wagą **0.75**.
+## **Installation**
+1. Install the required libraries:
+    ```sh
+    pip install -r requirements.txt
+    ```
 
-**Data oddania projektu:** 17 lutego 2025, poniedziałek (23:59:59)
+## **Usage**
+1. Run the application:
+    ```sh
+    python main.py
+    ```
+2. In the application window, select a mode (volume or brightness), then use your hand to control the settings.
 
-**Oddanie w terminie (18 lutego - 24 lutego):** 80% otrzymanej oceny.
-
-**W przypadku otrzymania oceny dst (3.0) z projektu oraz oddania go po 17.02.2025:**
-- Waga oceny z projektu zostanie powiększona do **0.3125** (ponieważ nie można otrzymać pozytywnej oceny niższej niż 3.0), a waga oceny z laboratorium pomniejszona do **0.6875**.
-
-
-**Brak projektu w dniu 25.02:** 
-- Skutkuje niezaliczeniem przedmiotu (ocena główna wpisywana przez koordynatora ndst **2.0**), niezależnie od nawet pozytywnej oceny z laboratorium.
+## **Author**
+Jakub Poznański
