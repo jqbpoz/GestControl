@@ -25,5 +25,6 @@ This program allows users to control volume or screen brightness using hand gest
     ```
 2. In the application window, select a mode (volume or brightness), then use your hand to control the settings.
 
+
 ## **Author**
 Jakub Poznański
